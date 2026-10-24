@@ -1,5 +1,13 @@
 # Release verification
 
+## 0.1.2 · October 23, 2026
+
+Dependency security update: certifi 2026.10.19 in all three locks, Pillow 13.0.0 in the Windows lock and uv 0.13.4 in the development lock. Application code is unchanged.
+
+A fresh hash-locked Windows installation passed `pip check`, Ruff lint and formatting, and the 45 default tests on Windows 11 x64 with Python 3.12, with no Pillow deprecation warnings. The Windows and macOS locks both passed advisory audits. The five opt-in desktop integration checks were not rerun for this dependency-only release; they last passed for 0.1.1. Hosted checks cover the macOS port.
+
+Release assets are built from the exact commit, with hosted checks, exported-tree/history secret scans and an unauthenticated SHA-256 download check recorded in the versioned release notes.
+
 ## 0.1.1 · October 16, 2026
 
 45 default Windows tests and all five controlled desktop integration checks passed. Both platform dependency locks passed advisory audits. The macOS source and Diane Green attribution are unchanged; hosted checks cover that port separately.

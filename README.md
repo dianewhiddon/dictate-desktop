@@ -12,7 +12,7 @@ The separate **[macOS port](macos/README.md) is by [Diane Green](https://github.
 
 Requires **Windows 10/11 x64, 64-bit Python 3.12, internet access and your own Groq or OpenAI API key**. Optional cleanup uses an Anthropic API key. Provider charges and limits apply.
 
-1. Download **Dictate-0.1.1-source.zip** from [Releases](https://github.com/dianewhiddon/dictate-desktop/releases/tag/v0.1.1). Extract it to a permanent folder you control.
+1. Download **Dictate-0.1.2-source.zip** from [Releases](https://github.com/dianewhiddon/dictate-desktop/releases/tag/v0.1.2). Extract it to a permanent folder you control.
 2. Install [Python 3.12](https://www.python.org/downloads/windows/) with its `py` launcher if needed.
 3. Open PowerShell in the extracted folder:
 
